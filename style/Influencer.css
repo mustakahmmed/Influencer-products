@@ -1,0 +1,40 @@
+/* common style */
+* {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Sora', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* navigation bar style */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 16px;
+    font-weight: 600;
+}
+nav a{
+    text-decoration: none;
+}
+
+nav li {
+    padding-right: 34px;
+}
+
+nav h3 {
+    color: #3A3A3A;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 24px;
+    font-weight: 700;
+    width: 243px;
+height: 52.2px;
+
+}
